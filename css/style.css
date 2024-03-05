@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(Drawing-1.sketchpad-2.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    color: azure;
+}
+
+#word {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#inputContainer {
+    margin-bottom: 20px;
+}
+
+#guessInput {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#previousGuesses {
+    font-size: 16px;
+}
