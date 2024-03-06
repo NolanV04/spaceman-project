@@ -9,6 +9,27 @@ h1 {
     color: azure;
 }
 
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#spaceman-container {
+    margin-right: 20px;
+}
+
+#spaceman-image {
+    max-width: 200px;
+    display: none;
+
+}
+
+#game-container {
+    text-align: left;
+}
+
 #word {
     font-size: 24px;
     margin-bottom: 20px;
@@ -16,6 +37,7 @@ h1 {
 
 #inputContainer {
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 #guessInput {
