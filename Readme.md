@@ -19,7 +19,7 @@ Javascript_
 
 ## Getting Started
 
-<!-- insert link for game here -->
+_https://nolanv04.github.io/spaceman-project/_
 
 ## Next Steps:
 _Adding an actual "Spaceman" that has minor animations based on right or wrong guesses. Adding sounds, based on right or wrong guesses. Also I want to make my textbox/button and letter guess stationary!_
