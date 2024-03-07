@@ -61,8 +61,10 @@ button:hover {
 #result {
     margin-bottom: 20px;
     font-size: 18px;
+    
 }
 
 #previousGuesses {
-    font-size: 16px;
+    font-size: 20px;
+    color: fuchsia;
 }

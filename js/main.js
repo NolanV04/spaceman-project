@@ -85,13 +85,13 @@ function checkGuess() {
         displayResult("Correct!", "green");
     } else {
         wrongGuessCount++;
-        spacemanImage.src = "broken helment" + wrongGuessCount + ".jpeg"; 
+        spacemanImage.src = "spaceman-helmet2.jpeg"; 
         if (wrongGuessCount >= 5) {
 
     // Show the spaceman image if the maximum wrong guesses are reached
 
             spacemanImage.style.display = "block";
-            displayResult("Wrong! The correct answer is: " + rightAnswer, "red");
+            displayResult("Wrong! The correct answer is: " + rightAnswer + "... Goodbye, Spaceman", "red");
         } else {
             displayResult("Wrong!", "red");
         }
